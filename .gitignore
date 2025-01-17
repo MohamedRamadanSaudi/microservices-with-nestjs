@@ -1,0 +1,9 @@
+/admin_services/node_modules/
+/admin_services/dist/
+/admin_services/.env
+/admin_services/.vscode/
+
+/main_services/node_modules/
+/main_services/dist/
+/main_services/.env
+/main_services/.vscode/
