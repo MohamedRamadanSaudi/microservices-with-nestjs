@@ -51,7 +51,7 @@ This project demonstrates the following concepts:
    Create a `.env` file with the following:
    ```env
    MONGO_URI=mongodb://localhost:27017/main_service
-   RABBITMQ_URL=amqp://localhost:5672
+   RMQ_URL=amqp://localhost:5672
    ```
 3. **Run the Service**:
    ```bash
@@ -96,12 +96,12 @@ This project demonstrates the following concepts:
 2. **Set Environment Variables**:
    Create a `.env` file with the following:
    ```env
-   MYSQL_HOST=localhost
-   MYSQL_PORT=3306
-   MYSQL_USER=root
-   MYSQL_PASSWORD=yourpassword
-   MYSQL_DATABASE=admin_service
-   RABBITMQ_URL=amqp://localhost:5672
+   DB_HOST=localhost
+   DB_PORT=3306
+   DB_USER=root
+   DB_PASS=yourpassword
+   DB_NAME=admin_service
+   RMQ_URL=amqp://localhost:5672
    ```
 3. **Run the Service**:
    ```bash
